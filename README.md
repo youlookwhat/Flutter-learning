@@ -1,14 +1,16 @@
 # Flutter-learning
 
 
-## 预备工作
+## 准备工作
 > https://docs.flutter.cn/community/china/
 
-配置环境变量：
+1.配置环境变量：
+```
 export PUB_HOSTED_URL="https://pub.flutter-io.cn"
 export FLUTTER_STORAGE_BASE_URL="https://storage.flutter-io.cn"
+```
 
-下载SDK
+2.下载SDK
 使用镜像下载
 
 下载基于镜像站点的 Flutter SDK 压缩包
@@ -25,12 +27,12 @@ https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutt
 https://storage.flutter-io.cn/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.35.5-stable.zip
 ```
 
-配置gradle 8.9 镜像
+3.配置gradle 8.9 镜像
 ```
 distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-8.9-bin.zip
 ```
 
-配置 ndk
+4.配置 ndk
 ```
 sdk.dir=/Users/michelle/Documents/DevelopTools/android-sdk
 sdk.ndk=/Users/michelle/Documents/DevelopTools/android-sdk/ndk/26.1.10909125
